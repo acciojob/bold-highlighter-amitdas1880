@@ -1,5 +1,8 @@
+const key =document.getElementsByTagName("p")[0];
+const p =document.getElementsByTagName("p")[1];
+key.addEventListener("click", highlight)
 function highlight() {
-    //Write your code here
+    p.style.color="green";
 
 
 }
