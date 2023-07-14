@@ -2,7 +2,7 @@ const key =document.getElementsByTagName("p")[0];
 const x = document.getElementsByTagName('strong');
 key.addEventListener("click", highlight)
 function highlight() {
-    x.style.color="green";
+    x.style.color="red";
 
 
 }
