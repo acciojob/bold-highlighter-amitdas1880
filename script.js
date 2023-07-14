@@ -1,4 +1,4 @@
-const key =document.getElementsByTagName("p")[0];
+const key =document.getElementsByTagName("p");
 const s =document.getElementsByTagName("strong");
 key.addEventListener("click", highlight)
 function highlight() {
