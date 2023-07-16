@@ -1,15 +1,10 @@
-//const key =document.getElementsByTagName("p")[0];
-let x = document.querySelectorAll('p strong');
+let boldWords = document.querySelectorAll(' p[1] strong');
 
 function highlight() {
-    x.style.color="green";
-
-
+  boldWords.style.color = "green";
 }
 
 
 function return_normal() {
-    x.style.color="black";
-
-    
+  boldWords.style.color = "black";
 }
