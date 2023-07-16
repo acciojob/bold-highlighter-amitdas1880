@@ -1,5 +1,6 @@
 //const key =document.getElementsByTagName("p")[0];
-const x = document.getElementsByTagName('p')[1];
+let x = document.querySelectorAll('p strong');
+
 function highlight() {
     x.style.color="green";
 
