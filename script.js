@@ -1,7 +1,11 @@
-let boldWords = document.querySelectorAll(' p[1] strong');
+//let boldWords = document.querySelectorAll(' p[1] strong');
 
 function highlight() {
-  boldWords.style.color = "green";
+      let boldWords = document.querySelectorAll('p strong');
+    for(let i = 0; i < boldWords.length; i++) {
+        boldWords[i].style.color = 'green';
+    }
+
 }
 
 
