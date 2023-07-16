@@ -1,8 +1,7 @@
-const key =document.getElementsByTagName("p")[0];
-const x = document.getElementsByTagName('p')[1].children;
-key.addEventListener("click", highlight)
+//const key =document.getElementsByTagName("p")[0];
+const x = document.getElementsByTagName('p')[1];
 function highlight() {
-    x.style.color="red";
+    x.style.color="green";
 
 
 }
